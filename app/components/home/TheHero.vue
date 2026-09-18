@@ -94,7 +94,7 @@ onUnmounted(() => {
             {{ t('hero_section.buttons.start_project') }}
           </button>
           <a
-            href="/resume.pdf"
+            href="/hussain_ullah_cv.pdf"
             download
             class="inline-flex items-center gap-2 text-sm font-medium text-gray-700 dark:text-slate-200 border-b border-gray-300 dark:border-gray-600 pb-1 hover:border-gray-800 dark:hover:border-slate-300 transition-colors"
           >
