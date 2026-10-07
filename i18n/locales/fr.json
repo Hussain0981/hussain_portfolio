@@ -16,8 +16,13 @@
     }
   },
   "projects": {
-    "title": "compatibilités",
-    "sub_title": "projets",
+    "title": "Projets",
+    "sub_title": "Des projets concrets, de l'idée au lancement",
+    "built_with": "Technologies utilisées",
+    "visit_site": "Voir le site",
+    "view_code": "Voir le code",
+    "private_source": "Code privé",
+    "open_source": "Open source",
     "desktop": {
       "title": "Applications de bureau",
       "data": [
@@ -80,20 +85,24 @@
       ]
     },
     "website": {
-      "title": "Sites web & portfolios",
-      "data": [
-        {
-          "id": 5,
-          "title": "Page de destination E-Commerce",
-          "description": "Une page de destination hautement convertissante et entièrement responsive, optimisée pour les Core Web Vitals et une expérience utilisateur fluide.",
-          "technologies": [
-            "Vue",
-            "Vite",
-            "Tailwindcss",
-            "GSAP Animation"
-          ]
+      "title": "Sites web et portfolios",
+      "items": {
+        "nextgcircle": {
+          "title": "Next Generation Circle",
+          "description": "Site de l'entreprise Next Generation Circle. J'ai développé le front-end responsive et les animations au défilement.",
+          "role": "Développeur Front-end"
+        },
+        "hrdn": {
+          "title": "HRDN",
+          "description": "Site web réalisé avec Nuxt et GSAP. J'ai développé le front-end responsive.",
+          "role": "Développeur Front-end"
+        },
+        "portfolio": {
+          "title": "Portfolio",
+          "description": "Site portfolio personnel réalisé avec Nuxt et GSAP. J'ai développé le front-end responsive.",
+          "role": "Créateur"
         }
-      ]
+      }
     }
   },
   "stacks": {

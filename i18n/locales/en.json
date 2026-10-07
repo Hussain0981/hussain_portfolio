@@ -16,8 +16,13 @@
     }
   },
   "projects": {
-    "title": "compatibilities",
-    "sub_title": "projects",
+    "title": "Projects",
+    "sub_title": "Real work, from idea to launch",
+    "built_with": "Built with",
+    "visit_site": "Visit site",
+    "view_code": "View code",
+    "private_source": "Private source",
+    "open_source": "Open source",
     "desktop": {
       "title": "Desktop Applications",
       "data": [
@@ -81,19 +86,23 @@
     },
     "website": {
       "title": "Websites & Portfolios",
-      "data": [
-        {
-          "id": 5,
-          "title": "E-Commerce Landing Page",
-          "description": "A high-converting, fully responsive landing page optimized for core web vitals and seamless user experience.",
-          "technologies": [
-            "Vue",
-            "Vite",
-            "Tailwindcss",
-            "GSAP Animation"
-          ]
+      "items": {
+        "nextgcircle": {
+          "title": "Next Generation Circle",
+          "description": "Company website for Next Generation Circle. I built the responsive front end and the scroll animations.",
+          "role": "Front-end Developer"
+        },
+        "hrdn": {
+          "title": "HRDN",
+          "description": "Website built with Nuxt and GSAP. I developed the responsive front end.",
+          "role": "Front-end Developer"
+        },
+        "portfolio": {
+          "title": "Portfolio",
+          "description": "Personal portfolio website built with Nuxt and GSAP. I developed the responsive front end.",
+          "role": "Creator"
         }
-      ]
+      }
     }
   },
   "techStack": {

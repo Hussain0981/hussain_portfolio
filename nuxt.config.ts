@@ -30,11 +30,10 @@ export default defineNuxtConfig({
     '~/assets/css/main.css',
   ],
   colorMode: {
-    preference: 'system', // pehli visit par OS preference follow karega
-    fallback: 'light', // agar system preference detect na ho
-    dataValue: 'theme', // <html data-theme="dark"> generate karega (humare CSS variables se match)
-    classSuffix: '', // class-based fallback bhi clean rahega agar kahin use ho
-    storageKey: 'app-theme', // localStorage key
+    preference: 'system', // follow OS preference
+    fallback: 'light', // if OS not detectable, use this
+    dataValue: 'theme',
+    classSuffix: '',
   },
 
   compatibilityDate: '2025-07-15',
@@ -44,6 +43,7 @@ export default defineNuxtConfig({
       standalone: false,
     },
   },
+
   i18n: {
     defaultLocale: 'en',
     strategy: 'prefix_except_default',
@@ -52,6 +52,12 @@ export default defineNuxtConfig({
       { code: 'fr', language: 'fr-FR', dir: 'ltr', file: 'fr.json' },
       { code: 'ar', language: 'ar-AR', dir: 'rtl', file: 'ar.json' },
     ],
+  },
+
+  icon: {
+    clientBundle: {
+      scan: true,
+    },
   },
 
 })
