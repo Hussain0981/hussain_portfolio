@@ -247,5 +247,32 @@
         "description": "Caching strategies, message queues, load balancing, and fault-tolerant architecture design."
       }
     ]
+  },
+  "experience": {
+    "badge": "Experience",
+    "title": "Where I have worked",
+    "subtitle": "Hands-on experience building full stack and desktop applications.",
+    "present": "Present",
+    "location": "Peshawar, Pakistan",
+    "companies": {
+      "ngc": "Next Generation Circle (Pvt) Ltd",
+      "remote": "Remote"
+    },
+    "roles": {
+      "intern": "Full Stack Intern",
+      "fullstack": "Full Stack Developer",
+      "remote": "Full Stack & Desktop Application Developer"
+    },
+    "jobs": {
+      "intern": {
+        "description": ""
+      },
+      "fullstack": {
+        "description": ""
+      },
+      "remote": {
+        "description": ""
+      }
+    }
   }
 }

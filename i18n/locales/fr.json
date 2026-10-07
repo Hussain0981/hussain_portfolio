@@ -245,5 +245,32 @@
         "description": "Stratégies de mise en cache, files de messages, équilibrage de charge et conception d'architectures tolérantes aux pannes."
       }
     ]
+  },
+  "experience": {
+    "badge": "Expérience",
+    "title": "Où j'ai travaillé",
+    "subtitle": "Expérience concrète dans la création d'applications full stack et de bureau.",
+    "present": "Aujourd'hui",
+    "location": "Peshawar, Pakistan",
+    "companies": {
+      "ngc": "Next Generation Circle (Pvt) Ltd",
+      "remote": "À distance"
+    },
+    "roles": {
+      "intern": "Stagiaire développeur Full Stack",
+      "fullstack": "Développeur Full Stack",
+      "remote": "Développeur Full Stack et applications de bureau"
+    },
+    "jobs": {
+      "intern": {
+        "description": ""
+      },
+      "fullstack": {
+        "description": ""
+      },
+      "remote": {
+        "description": ""
+      }
+    }
   }
 }
