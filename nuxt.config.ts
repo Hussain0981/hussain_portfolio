@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     'nuxt-particles',
     '@nuxtjs/i18n',
     'nuxt-aos',
+    'nuxt-swiper'
   ],
   devtools: { enabled: true },
   app: {
