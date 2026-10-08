@@ -10,26 +10,35 @@ export default defineNuxtConfig({
     'nuxt-particles',
     '@nuxtjs/i18n',
     'nuxt-aos',
-    'nuxt-swiper'
+    'nuxt-swiper',
+    '@nuxtjs/seo',
   ],
+  $development: {
+    site: { url: 'http://localhost:3000' },
+  },
+
   devtools: { enabled: true },
+
   app: {
     head: {
-      title: 'Hussain Ullah Portfolio',
-      htmlAttrs: {
-        lang: 'en',
-      },
       meta: [
-        { charset: 'utf-8' },
-        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         { name: 'format-detection', content: 'telephone=no' },
       ],
-      link: [{ rel: 'icon', type: 'image/x-icon', href: '/logo.png' }],
+      link: [{ rel: 'icon', type: 'image/png', href: '/logo.png' }],
     },
   },
+
   css: [
     '~/assets/css/main.css',
   ],
+
+  // Used by @nuxtjs/seo for canonical URL, og:url, og:site_name, sitemap, etc.
+  // You can still override it with the NUXT_PUBLIC_SITE_URL environment variable.
+  site: {
+    url: 'https://hussainme.vercel.app',
+    name: 'Hussain Ullah Portfolio',
+  },
+
   colorMode: {
     preference: 'system', // follow OS preference
     fallback: 'light', // if OS not detectable, use this
@@ -38,6 +47,7 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2025-07-15',
+
   eslint: {
     config: {
       stylistic: true,
@@ -51,7 +61,7 @@ export default defineNuxtConfig({
     locales: [
       { code: 'en', language: 'en-US', dir: 'ltr', file: 'en.json' },
       { code: 'fr', language: 'fr-FR', dir: 'ltr', file: 'fr.json' },
-      { code: 'ar', language: 'ar-AR', dir: 'rtl', file: 'ar.json' },
+      { code: 'ar', language: 'ar-SA', dir: 'rtl', file: 'ar.json' },
     ],
   },
 
@@ -60,5 +70,4 @@ export default defineNuxtConfig({
       scan: true,
     },
   },
-
 })

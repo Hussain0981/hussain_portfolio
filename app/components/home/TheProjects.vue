@@ -59,7 +59,7 @@ const swiper = useSwiper(swiperRef, {
   spaceBetween: 16,
   grabCursor: true,
   loop: true,
-  autoplay: { delay: 3500, pauseOnMouseEnter: true, disableOnInteraction: false },
+  autoplay: { delay: 7000, pauseOnMouseEnter: true, disableOnInteraction: false },
   rewind: true, // goes back to the first slide at the end (loop needs more slides than slidesPerView)
   breakpoints: {
     768: { slidesPerView: 2 },

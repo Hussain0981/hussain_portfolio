@@ -17,6 +17,8 @@
     "@nuxt/image": "2.0.0",
     "@nuxtjs/color-mode": "4.0.1",
     "@nuxtjs/i18n": "^10.6.0",
+    "@nuxtjs/seo": "^5.3.16",
+    "@nuxtjs/sitemap": "8.6.1",
     "nuxt": "^4.4.2",
     "nuxt-aos": "^1.2.6",
     "nuxt-swiper": "2.0.2",

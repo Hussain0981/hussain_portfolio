@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "Hussain | Développeur Full Stack et applications de bureau",
+    "description": "Hussain, développeur Full Stack et d'applications de bureau à Peshawar (Pakistan). Découvrez mes projets Nuxt, Vue, TypeScript, Tailwind CSS et Electron."
+  },
   "hero_section": {
     "current_status": "Disponible pour travailler",
     "first_name": "Hussain",

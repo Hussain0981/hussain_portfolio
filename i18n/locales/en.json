@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "Hussain | Full Stack & Desktop Application Developer",
+    "description": "Hussain, Full Stack & Desktop Application Developer from Peshawar, Pakistan. Explore my projects built with Nuxt, Vue, TypeScript, Tailwind CSS and Electron."
+  },
   "hero_section": {
     "current_status": "Available for work",
     "first_name": "Hussain",

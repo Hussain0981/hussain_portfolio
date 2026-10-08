@@ -1,4 +1,8 @@
 {
+  "seo": {
+    "title": "حسين | مطور ويب متكامل وتطبيقات سطح المكتب",
+    "description": "حسين، مطور ويب متكامل (Full Stack) وتطبيقات سطح المكتب من بيشاور، باكستان. اطلع على مشاريعي المبنية باستخدام Nuxt وVue وTypeScript وTailwind CSS وElectron."
+  },
   "hero_section": {
     "current_status": "متاح للعمل",
     "first_name": "حسين",
