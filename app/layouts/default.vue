@@ -11,17 +11,8 @@
 
 <template>
   <div
-    class="relative overflow-hidden min-h-screen dark:bg-[url('/bg.png')] dark:bg-black"
+    class="overflow-hidden bg-slate-50 min-h-screen dark:bg-[url('/bg.png')] dark:bg-black"
   >
-    <!-- Background Watermark Typography -->
-    <div
-      class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-10
-             uppercase text-[18vw] font-black select-none pointer-events-none
-             text-slate-100/80 dark:text-slate-700/30"
-    >
-      <span>Hussain</span>
-    </div>
-
     <!-- Header -->
     <header>
       <NavigationTheHeader />

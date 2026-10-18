@@ -11,8 +11,9 @@ const authorName = t('footer.author')
 <template>
   <footer
     class="w-full border-t transition-colors duration-300
-           bg-slate-50/80 dark:bg-black/50 backdrop-blur-md
-           border-slate-200/80 dark:border-slate-800/80"
+    dark:bg-gray-700/60 dark:border-gray-700 dark:text-slate-200
+           bg-slate-50/80 backdrop-blur-md
+           border-slate-200/80"
   >
     <div class="p-5 rounded-md flex flex-col md:flex-row items-center justify-between gap-4">
       <!-- Brand & Copyright Info -->

@@ -38,7 +38,7 @@ async function handleSubmit() {
 </script>
 
 <template>
-  <div id="contact" class="w-full p-4 md:p-6 bg-white rounded-2xl shadow-sm border border-slate-100 dark:bg-black/50 dark:border-slate-700">
+  <div id="contact" class="w-full p-4 md:p-6 bg-white rounded-2xl shadow-sm border border-slate-100 dark:bg-gray-700/60 dark:border-gray-700 dark:text-slate-200">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
       <!-- Left Column: Info & Form -->
       <div id="info" class="space-y-6">

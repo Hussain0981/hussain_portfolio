@@ -29,10 +29,10 @@ const experience = computed(() =>
 <template>
   <section
     id="experience"
-    class="space-y-8 py-6 font-sans transition-colors duration-300 sm:space-y-10 sm:py-8 md:p-8"
+    class="space-y-4 py-6 font-sans transition-colors duration-300 sm:space-y-10 sm:py-8 md:p-8"
   >
     <!-- Section heading -->
-    <header data-aos="fade-up" class="border-b border-slate-200 px-2 pb-6 dark:border-slate-800">
+    <header data-aos="fade-up" class=" px-2 pb-6 dark:border-slate-800">
       <span
         class="inline-block px-3 dark:px-0 rounded-full font-mono bg-slate-200/70 py-1 font-semibold text-slate-700 dark:bg-slate-800 dark:text-slate-300"
       >

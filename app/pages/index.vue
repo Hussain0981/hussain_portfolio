@@ -9,8 +9,6 @@
     <hr class=" border-gray-100 dark:border-gray-700">
 
     <HomeTheExperiance />
-    <hr class=" border-gray-100 dark:border-gray-700">
-
     <HomeTheProjects />
     <HomeTheProjectsFullStack />
     <HomeTheProjectsDesktop />

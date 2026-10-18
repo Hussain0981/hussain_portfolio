@@ -19,7 +19,7 @@ const imageFailed = ref(false)
 
 <template>
   <article
-    class="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:shadow-lg dark:border-slate-800 dark:bg-black/50 dark:hover:border-slate-700"
+    class="group flex h-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm transition duration-300 hover:shadow-lg dark:bg-gray-700/60 dark:border-gray-700 dark:text-slate-200 dark:hover:border-slate-700"
   >
     <!-- Screenshot -->
     <div class="relative aspect-[16/10] overflow-hidden bg-slate-100 dark:bg-slate-800">
@@ -65,7 +65,7 @@ const imageFailed = ref(false)
         <li
           v-for="tech in props.technologies"
           :key="tech"
-          class="rounded-md bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-600 dark:bg-slate-800 dark:text-slate-300"
+          class="rounded-md bg-slate-100 px-2 py-0.5 text-xs font-medium text-slate-600 dark:bg-black dark:text-slate-300"
         >
           {{ tech }}
         </li>
