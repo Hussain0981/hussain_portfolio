@@ -29,81 +29,52 @@
     "open_source": "مفتوح المصدر",
     "desktop": {
       "title": "تطبيقات سطح المكتب",
-      "data": [
-        {
-          "id": 1,
+      "items": {
+        "pharmacy": {
           "title": "نظام إدارة الصيدلية",
-          "description": "تطبيق سطح مكتب شامل لإدارة عمليات الصيدلية، بما في ذلك المخزون والمبيعات وإدارة العملاء.",
-          "technologies": [
-            "Electron.js",
-            "Vue",
-            "SQL Server",
-            "Drizzle ORM",
-            "TypeScript",
-            "Tailwindcss"
-          ]
+          "role": "المنشئ"
         },
-        {
-          "id": 2,
-          "title": "نظام إدارة HOS",
-          "description": "نظام تشغيل مستشفيات متقدم مصمم لتبسيط سير العمل في الرعاية الصحية وسجلات المرضى وجدولة الموظفين.",
-          "technologies": [
-            "Electron.js",
-            "Vue",
-            "SQL Server",
-            "Drizzle ORM",
-            "TypeScript",
-            "Tailwindcss"
-          ]
-        },
-        {
-          "id": 3,
-          "title": "نظام إدارة الألعاب GAME",
-          "description": "منصة سطح مكتب محسّنة الأداء لتتبع أصول منطقة الألعاب، وجداول البطولات، والفوترة في الوقت الفعلي.",
-          "technologies": [
-            "Electron.js",
-            "Vue",
-            "SQL Server",
-            "TypeScript",
-            "Tailwindcss"
-          ]
+        "uniform": {
+          "title": "نقطة بيع الزي الموحد",
+          "role": "المنشئ"
         }
-      ]
+      }
     },
     "web": {
-      "title": "تطبيقات الويب",
-      "data": [
-        {
-          "id": 4,
-          "title": "منصة تحليلات SaaS",
-          "description": "تطبيق ويب ديناميكي يتميز بخطوط تحليل بيانات في الوقت الفعلي، ولوحات معلومات تفاعلية، وفوترة متعددة المستأجرين.",
-          "technologies": [
-            "Vue 3",
-            "Nuxt",
-            "Node.js",
-            "PostgreSQL",
-            "TypeScript",
-            "Tailwindcss"
-          ]
+      "title": "تطبيقات الواجهة الخلفية",
+      "items": {
+        "dashboard": {
+          "id": 1,
+          "title": "لوحة تحكم مخصصة",
+          "role": "المنشئ"
         }
-      ]
+      }
     },
     "website": {
       "title": "المواقع الإلكترونية ومعارض الأعمال",
       "items": {
         "nextgcircle": {
           "title": "نكست جينيريشن سيركل",
-          "description": "الموقع الرسمي لشركة نكست جينيريشن سيركل. قمت ببناء الواجهة الأمامية المتجاوبة وحركات التمرير.",
           "role": "مطور واجهات أمامية"
         },
         "hrdn": {
           "title": "HRDN",
-          "description": "موقع إلكتروني مبني باستخدام Nuxt وGSAP. قمت بتطوير الواجهة الأمامية المتجاوبة.",
           "role": "مطور واجهات أمامية"
         },
         "portfolio": {
           "title": "معرض الأعمال",
-          "description": "موقع معرض أعمال شخصي مبني باستخدام Nuxt وGSAP. قمت بتطوير الواجهة الأمامية المتجاوبة.",
+          "role": "المنشئ"
+        },
+        "mojeto": {
+          "title": "Mojeto",
+          "role": "استنساخ"
+        },
+        "sundown-studio": {
+          "title": "Sundown Studio",
+          "role": "استنساخ"
+        },
+        "governance": {
+          "title": "الحوكمة",
           "role": "المنشئ"
         }
       }

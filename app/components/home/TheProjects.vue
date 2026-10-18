@@ -31,6 +31,14 @@ const websiteProjects: WebsiteProject[] = [
     github: null,
   },
   {
+    id: 'governance',
+    visibility: 'public',
+    technologies: ['Nuxt', 'Vue', 'GSAP', 'TypeScript', 'Tailwind CSS'],
+    image: '/projects/governance.png',
+    demo: 'https://hussainme.vercel.app/',
+    github: 'https://github.com/Hussain0981/sundown-studio',
+  },
+  {
     id: 'portfolio',
     visibility: 'public',
     technologies: ['Nuxt', 'Vue', 'Tailwind CSS', 'TypeScript'],
@@ -38,6 +46,23 @@ const websiteProjects: WebsiteProject[] = [
     demo: 'https://hussainme.vercel.app/',
     github: 'https://github.com/Hussain0981/hussain_portfolio',
   },
+  {
+    id: 'mojeto',
+    visibility: 'public',
+    technologies: ['Nuxt', 'Vue', 'GSAP', 'TypeScript', 'Tailwind CSS'],
+    image: '/projects/mojeto.png',
+    demo: 'https://hussainme.vercel.app/',
+    github: 'https://github.com/Hussain0981/Mojeto-Frontend-website',
+  },
+  {
+    id: 'sundown-studio',
+    visibility: 'public',
+    technologies: ['Nuxt', 'Vue', 'GSAP', 'TypeScript', 'Tailwind CSS'],
+    image: '/projects/sundown-studio.png',
+    demo: 'https://hussainme.vercel.app/',
+    github: 'https://github.com/Hussain0981/sundown-studio',
+  },
+
 ]
 
 // One slide per project (not one slide per category).
@@ -190,10 +215,6 @@ const failedImages = reactive(new Set<string>())
               </h4>
               <p class="mt-0.5 text-xs font-medium text-emerald-600 dark:text-emerald-400">
                 {{ item.role }}
-              </p>
-
-              <p class="mt-3 line-clamp-3 text-sm leading-relaxed text-slate-600 dark:text-slate-400">
-                {{ item.description }}
               </p>
 
               <ul class="mt-4 flex flex-wrap gap-1.5" :aria-label="t('projects.built_with')">

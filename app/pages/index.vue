@@ -12,6 +12,8 @@
     <hr class=" border-gray-100 dark:border-gray-700">
 
     <HomeTheProjects />
+    <HomeTheProjectsFullStack />
+    <HomeTheProjectsDesktop />
     <hr class=" border-gray-100 dark:border-gray-700">
 
     <HomeTechnologies />
@@ -20,6 +22,9 @@
     <!-- home - TheTechStack.vue -->
     <HomeTheMurque />
 
+    <hr class=" border-gray-100 dark:border-gray-700">
+
+    <HomeTheClients />
     <hr class=" border-gray-100 dark:border-gray-700">
 
     <HomeContactForm />

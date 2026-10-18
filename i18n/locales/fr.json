@@ -29,81 +29,52 @@
     "open_source": "Open source",
     "desktop": {
       "title": "Applications de bureau",
-      "data": [
-        {
-          "id": 1,
+      "items": {
+        "pharmacy": {
           "title": "Système de gestion de pharmacie",
-          "description": "Une application de bureau complète pour gérer les opérations d'une pharmacie, y compris l'inventaire, les ventes et la gestion des clients.",
-          "technologies": [
-            "Electron.js",
-            "Vue",
-            "SQL Server",
-            "Drizzle ORM",
-            "TypeScript",
-            "Tailwindcss"
-          ]
+          "role": "Créateur"
         },
-        {
-          "id": 2,
-          "title": "Système de gestion HOS",
-          "description": "Un système d'exploitation hospitalier avancé conçu pour simplifier les flux de travail de santé, les dossiers des patients et la planification du personnel.",
-          "technologies": [
-            "Electron.js",
-            "Vue",
-            "SQL Server",
-            "Drizzle ORM",
-            "TypeScript",
-            "Tailwindcss"
-          ]
-        },
-        {
-          "id": 3,
-          "title": "Système de gestion GAME",
-          "description": "Une plateforme de bureau optimisée pour les performances, dédiée au suivi des actifs d'une zone de jeu, aux tableaux de tournois et à la facturation en temps réel.",
-          "technologies": [
-            "Electron.js",
-            "Vue",
-            "SQL Server",
-            "TypeScript",
-            "Tailwindcss"
-          ]
+        "uniform": {
+          "title": "Point de vente d'uniformes",
+          "role": "Créateur"
         }
-      ]
+      }
     },
     "web": {
-      "title": "Applications web",
-      "data": [
-        {
-          "id": 4,
-          "title": "Plateforme d'analyse SaaS",
-          "description": "Une application web dynamique dotée de pipelines d'analyse de données en temps réel, de tableaux de bord interactifs et d'une facturation multi-locataire.",
-          "technologies": [
-            "Vue 3",
-            "Nuxt",
-            "Node.js",
-            "PostgreSQL",
-            "TypeScript",
-            "Tailwindcss"
-          ]
+      "title": "Applications backend",
+      "items": {
+        "dashboard": {
+          "id": 1,
+          "title": "Tableau de bord personnalisé",
+          "role": "Créateur"
         }
-      ]
+      }
     },
     "website": {
       "title": "Sites web et portfolios",
       "items": {
         "nextgcircle": {
           "title": "Next Generation Circle",
-          "description": "Site de l'entreprise Next Generation Circle. J'ai développé le front-end responsive et les animations au défilement.",
           "role": "Développeur Front-end"
         },
         "hrdn": {
           "title": "HRDN",
-          "description": "Site web réalisé avec Nuxt et GSAP. J'ai développé le front-end responsive.",
           "role": "Développeur Front-end"
         },
         "portfolio": {
           "title": "Portfolio",
-          "description": "Site portfolio personnel réalisé avec Nuxt et GSAP. J'ai développé le front-end responsive.",
+          "role": "Créateur"
+        },
+        "mojeto": {
+          "title": "Mojeto",
+          "role": "Clone"
+        },
+        "sundown-studio": {
+          "title": "Sundown Studio",
+          "role": "Clone"
+        },
+        "governance": {
+          "title": "Gouvernance",
           "role": "Créateur"
         }
       }

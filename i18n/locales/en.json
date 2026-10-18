@@ -29,81 +29,52 @@
     "open_source": "Open source",
     "desktop": {
       "title": "Desktop Applications",
-      "data": [
-        {
-          "id": 1,
+      "items": {
+        "pharmacy": {
           "title": "Pharmacy Management System",
-          "description": "A comprehensive desktop application for managing pharmacy operations, including inventory, sales, and customer management.",
-          "technologies": [
-            "Electron.js",
-            "Vue",
-            "SQL Server",
-            "Drizzle ORM",
-            "TypeScript",
-            "Tailwindcss"
-          ]
+          "role": "Creator"
         },
-        {
-          "id": 2,
-          "title": "HOS Management System",
-          "description": "An advanced hospital operating system designed to streamline healthcare workflows, patient records, and staff scheduling.",
-          "technologies": [
-            "Electron.js",
-            "Vue",
-            "SQL Server",
-            "Drizzle ORM",
-            "TypeScript",
-            "Tailwindcss"
-          ]
-        },
-        {
-          "id": 3,
-          "title": "GAME Management System",
-          "description": "A performance-optimized desktop platform for gaming zone assets tracking, tournament brackets, and real-time billing.",
-          "technologies": [
-            "Electron.js",
-            "Vue",
-            "SQL Server",
-            "TypeScript",
-            "Tailwindcss"
-          ]
+        "uniform": {
+          "title": "Uniform POS",
+          "role": "Creator"
         }
-      ]
+      }
     },
     "web": {
-      "title": "Web Applications",
-      "data": [
-        {
-          "id": 4,
-          "title": "SaaS Analytics Platform",
-          "description": "A dynamic web application featuring real-time data analytics pipelines, interactive dashboards, and multi-tenant billing.",
-          "technologies": [
-            "Vue 3",
-            "Nuxt",
-            "Node.js",
-            "PostgreSQL",
-            "TypeScript",
-            "Tailwindcss"
-          ]
+      "title": "Backend Applications",
+      "items": {
+        "dashboard": {
+          "id": 1,
+          "title": "Customize Dashboard",
+          "role": "Creator"
         }
-      ]
+      }
     },
     "website": {
       "title": "Websites & Portfolios",
       "items": {
         "nextgcircle": {
           "title": "Next Generation Circle",
-          "description": "Company website for Next Generation Circle. I built the responsive front end and the scroll animations.",
           "role": "Front-end Developer"
         },
         "hrdn": {
           "title": "HRDN",
-          "description": "Website built with Nuxt and GSAP. I developed the responsive front end.",
           "role": "Front-end Developer"
         },
         "portfolio": {
           "title": "Portfolio",
-          "description": "Personal portfolio website built with Nuxt and GSAP. I developed the responsive front end.",
+          "role": "Creator"
+        },
+        "mojeto": {
+          "title": "Mojeto",
+          "role": "Clone"
+        },
+        "sundown-studio": {
+          "title": "Sundown Studio",
+          "role": "Clone"
+        },
+        "governance": {
+          "title": "Governance",
           "role": "Creator"
         }
       }
