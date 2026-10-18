@@ -3,7 +3,7 @@ import { Icon } from '@iconify/vue'
 
 const config = useRuntimeConfig()
 
-const form = reactive({ title: '', message: '' })
+const form = reactive({ title: '', message: '', email: '' })
 const status = ref<'idle' | 'loading' | 'success' | 'error'>('idle')
 
 async function handleSubmit() {
@@ -12,6 +12,7 @@ async function handleSubmit() {
   formData.append('access_key', `${config.public.web3formsKey}`)
   formData.append('title', form.title)
   formData.append('message', form.message)
+  formData.append('email', form.email)
 
   try {
     const res = await fetch('https://api.web3forms.com/submit', {
@@ -24,6 +25,7 @@ async function handleSubmit() {
       status.value = 'success'
       form.title = ''
       form.message = ''
+      form.email = ''
     }
     else {
       status.value = 'error'
@@ -63,6 +65,20 @@ async function handleSubmit() {
               name="title"
               required
               :placeholder="$t('contact.form.titlePlaceholder')"
+              class="w-full px-3.5 py-2.5 text-sm bg-slate-50/50 dark:bg-slate-700/50 text-slate-800 dark:text-slate-200 rounded-lg border border-slate-200 dark:border-slate-600 focus:bg-white dark:focus:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:focus:ring-blue-400/20 focus:border-blue-500 dark:focus:border-blue-400 transition-all placeholder:text-slate-400 dark:placeholder:text-slate-500"
+            >
+          </div>
+          <div class="flex flex-col gap-1.5">
+            <label for="email" class="text-xs font-semibold text-slate-700 dark:text-slate-300 tracking-wide">
+              {{ $t('contact.form.emailLabel') }}
+            </label>
+            <input
+              id="email"
+              v-model="form.email"
+              type="email"
+              name="email"
+              required
+              :placeholder="$t('contact.form.emailPlaceholder')"
               class="w-full px-3.5 py-2.5 text-sm bg-slate-50/50 dark:bg-slate-700/50 text-slate-800 dark:text-slate-200 rounded-lg border border-slate-200 dark:border-slate-600 focus:bg-white dark:focus:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:focus:ring-blue-400/20 focus:border-blue-500 dark:focus:border-blue-400 transition-all placeholder:text-slate-400 dark:placeholder:text-slate-500"
             >
           </div>

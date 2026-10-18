@@ -172,6 +172,8 @@
       "titlePlaceholder": "Enter subject or title",
       "messageLabel": "Message",
       "messagePlaceholder": "Write your message here...",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Enter your email address",
       "submit": "Send",
       "sending": "Sending...",
       "success": "Thanks! Your message was sent.",

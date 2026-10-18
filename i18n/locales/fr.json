@@ -172,6 +172,8 @@
       "titlePlaceholder": "Saisissez l'objet ou le titre",
       "messageLabel": "Message",
       "messagePlaceholder": "Écrivez votre message ici...",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "Saisissez votre adresse e-mail",
       "submit": "Envoyer",
       "sending": "Envoi en cours...",
       "success": "Merci ! Votre message a bien été envoyé.",

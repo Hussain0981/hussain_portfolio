@@ -172,6 +172,8 @@
       "titlePlaceholder": "أدخل الموضوع أو العنوان",
       "messageLabel": "الرسالة",
       "messagePlaceholder": "اكتب رسالتك هنا...",
+      "emailLabel": "البريد الإلكتروني",
+      "emailPlaceholder": "أدخل بريدك الإلكتروني",
       "submit": "إرسال",
       "sending": "جارٍ الإرسال...",
       "success": "شكرًا لك! تم إرسال رسالتك.",
