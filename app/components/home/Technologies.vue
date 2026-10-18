@@ -139,10 +139,10 @@ const stacks = computed<StackSection[]>(() =>
 </script>
 
 <template>
-  <div id="technologies" class="max-w-6xl mx-auto py-6 sm:py-8 md:p-8 space-y-8 sm:space-y-10 md:bg-slate-50 dark:bg-slate-900 font-sans transition-colors duration-300">
+  <div id="technologies" class="max-w-6xl mx-auto space-y-8 sm:space-y-10 font-sans transition-colors duration-300">
     <!-- Overall Section Heading -->
     <div data-aos="fade-up" class=" px-2 border-b border-slate-200 dark:border-slate-800 pb-6">
-      <span class="inline-block px-3 py-1 rounded-full bg-slate-200/70 dark:bg-slate-800 text-slate-700 dark:text-slate-300 text-[11px] font-bold uppercase tracking-wider">
+      <span class="inline-block px-3 py-1 rounded-full bg-slate-200/70 dark:bg-black/50 text-slate-700 dark:text-slate-300 text-[11px] font-bold uppercase tracking-wider">
         {{ $t('techStack.badge') }}
       </span>
       <h1 class="text-2xl sm:text-3xl font-extrabold text-slate-900 dark:text-slate-100 tracking-tight mt-3">
@@ -158,7 +158,7 @@ const stacks = computed<StackSection[]>(() =>
       <section
         v-for="stack in stacks"
         :key="stack.key"
-        class="bg-white dark:bg-slate-800/80 border border-slate-200/80 dark:border-slate-700/80 rounded-2xl p-5 sm:p-6 md:p-8 shadow-sm hover:shadow-md hover:border-slate-300 dark:hover:border-slate-600 transition-all duration-300 relative overflow-hidden group"
+        class="bg-white dark:bg-black/50 border border-slate-200/80 dark:border-slate-700/80 rounded-2xl p-5 sm:p-6 md:p-8 shadow-sm hover:shadow-md hover:border-slate-300 dark:hover:border-slate-600 transition-all duration-300 relative overflow-hidden group"
       >
         <!-- Top Accent Gradient Bar -->
         <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-blue-500 via-indigo-500 to-sky-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

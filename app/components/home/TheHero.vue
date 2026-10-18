@@ -47,7 +47,7 @@ onUnmounted(() => {
 <template>
   <section
     id="home"
-    class="min-h-screen w-full flex flex-col justify-between px-4 sm:px-8 md:px-12 lg:px-0 py-6 transition-colors duration-300 dark:bg-gray-800 text-slate-900 dark:text-slate-100"
+    class="min-h-screen w-full flex flex-col justify-between px-4 sm:px-8 md:px-12 lg:px-0 py-6 transition-colors duration-300 text-slate-900 dark:text-slate-100"
   >
     <!-- Particles Background -->
     <NuxtParticles id="tsparticles" :options="options" @load="onLoad" />
@@ -108,10 +108,10 @@ onUnmounted(() => {
       <!-- Right Logo / Avatar Container -->
       <div class="md:col-span-5 flex justify-center items-center">
         <div
-          class="w-full max-w-[220px] sm:max-w-[260px] md:max-w-[300px] aspect-square rounded-3xl p-4 bg-white/80 dark:bg-slate-900/80 border border-slate-200/80 dark:border-slate-800 shadow-xl backdrop-blur-md transition-transform duration-300 hover:scale-[1.02]"
+          class="w-full max-w-[220px] sm:max-w-[260px] md:max-w-[300px] aspect-square rounded-3xl p-4 bg-white/80 dark:bg-black border border-slate-200/80 dark:border-slate-800 shadow-xl backdrop-blur-md transition-transform duration-300 hover:scale-[1.02]"
         >
           <img
-            class="h-full w-full object-contain rounded-2xl bg-slate-50 dark:bg-slate-800/50 p-2"
+            class="h-full w-full object-contain rounded-2xl bg-slate-50 dark:bg-black/20 p-2"
             src="/hussain_logo.png" alt="Hussain Ullah Logo"
           >
         </div>

@@ -38,7 +38,7 @@ async function handleSubmit() {
 </script>
 
 <template>
-  <div id="contact" class="w-full p-4 md:p-6 bg-white rounded-2xl shadow-sm border border-slate-100 dark:bg-slate-800 dark:border-slate-700">
+  <div id="contact" class="w-full p-4 md:p-6 bg-white rounded-2xl shadow-sm border border-slate-100 dark:bg-black/50 dark:border-slate-700">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
       <!-- Left Column: Info & Form -->
       <div id="info" class="space-y-6">
@@ -65,7 +65,7 @@ async function handleSubmit() {
               name="title"
               required
               :placeholder="$t('contact.form.titlePlaceholder')"
-              class="w-full px-3.5 py-2.5 text-sm bg-slate-50/50 dark:bg-slate-700/50 text-slate-800 dark:text-slate-200 rounded-lg border border-slate-200 dark:border-slate-600 focus:bg-white dark:focus:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:focus:ring-blue-400/20 focus:border-blue-500 dark:focus:border-blue-400 transition-all placeholder:text-slate-400 dark:placeholder:text-slate-500"
+              class="w-full px-3.5 py-2.5 text-sm bg-slate-50/50 dark:bg-black/70 text-slate-800 dark:text-slate-200 rounded-lg border border-slate-200 dark:border-slate-600 focus:bg-white dark:focus:bg-black focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:focus:ring-blue-400/20 focus:border-blue-500 dark:focus:border-blue-400 transition-all placeholder:text-slate-400 dark:placeholder:text-slate-500"
             >
           </div>
           <div class="flex flex-col gap-1.5">
@@ -79,7 +79,7 @@ async function handleSubmit() {
               name="email"
               required
               :placeholder="$t('contact.form.emailPlaceholder')"
-              class="w-full px-3.5 py-2.5 text-sm bg-slate-50/50 dark:bg-slate-700/50 text-slate-800 dark:text-slate-200 rounded-lg border border-slate-200 dark:border-slate-600 focus:bg-white dark:focus:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:focus:ring-blue-400/20 focus:border-blue-500 dark:focus:border-blue-400 transition-all placeholder:text-slate-400 dark:placeholder:text-slate-500"
+              class="w-full px-3.5 py-2.5 text-sm bg-slate-50/50 dark:bg-black/70 text-slate-800 dark:text-slate-200 rounded-lg border border-slate-200 dark:border-slate-600 focus:bg-white dark:focus:bg-black focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:focus:ring-blue-400/20 focus:border-blue-500 dark:focus:border-blue-400 transition-all placeholder:text-slate-400 dark:placeholder:text-slate-500"
             >
           </div>
 
@@ -95,7 +95,7 @@ async function handleSubmit() {
               rows="4"
               required
               :placeholder="$t('contact.form.messagePlaceholder')"
-              class="w-full px-3.5 py-2.5 text-sm bg-slate-50/50 dark:bg-slate-700/50 text-slate-800 dark:text-slate-200 rounded-lg border border-slate-200 dark:border-slate-600 focus:bg-white dark:focus:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:focus:ring-blue-400/20 focus:border-blue-500 dark:focus:border-blue-400 transition-all placeholder:text-slate-400 dark:placeholder:text-slate-500 resize-none"
+              class="w-full px-3.5 py-2.5 text-sm bg-slate-50/50 dark:bg-black/70 text-slate-800 dark:text-slate-200 rounded-lg border border-slate-200 dark:border-slate-600 focus:bg-white dark:focus:bg-black focus:outline-none focus:ring-2 focus:ring-blue-500/20 dark:focus:ring-blue-400/20 focus:border-blue-500 dark:focus:border-blue-400 transition-all placeholder:text-slate-400 dark:placeholder:text-slate-500 resize-none"
             />
           </div>
 

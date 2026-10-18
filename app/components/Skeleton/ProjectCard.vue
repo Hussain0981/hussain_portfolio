@@ -1,5 +1,5 @@
 <template>
-  <div class="animate-pulse overflow-hidden rounded-2xl border border-slate-200 bg-white motion-reduce:animate-none dark:border-slate-800 dark:bg-slate-900">
+  <div class="animate-pulse overflow-hidden rounded-2xl border border-slate-200 bg-white motion-reduce:animate-none dark:border-slate-800 dark:bg-slate-900 flex flex-col">
     <div class="aspect-[16/10] bg-slate-200 dark:bg-slate-800" />
     <div class="space-y-3 p-5">
       <div class="h-5 w-2/3 rounded bg-slate-200 dark:bg-slate-800" />

@@ -117,7 +117,7 @@ function selectLanguage(langCode: string) {
 
 <template>
   <header
-    class="fixed top-0 z-50 w-full border-b border-slate-200/60 dark:border-slate-800/60 bg-white/70 dark:bg-slate-950/70 backdrop-blur-xl transition-all duration-300 ease-in-out will-change-transform"
+    class="fixed top-0 z-50 w-full border-b border-slate-200/60 dark:border-slate-800/60 bg-white/70 dark:bg-black backdrop-blur-xl transition-all duration-300 ease-in-out will-change-transform"
     :class="isHeaderVisible ? 'translate-y-0' : '-translate-y-full'"
   >
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

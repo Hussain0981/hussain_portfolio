@@ -11,7 +11,7 @@
 
 <template>
   <div
-    class="relative overflow-hidden min-h-screen dark:bg-slate-800"
+    class="relative overflow-hidden min-h-screen dark:bg-[url('/bg.png')] dark:bg-black"
   >
     <!-- Background Watermark Typography -->
     <div

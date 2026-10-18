@@ -26,7 +26,7 @@ const benefits = computed(() => {
 <template>
   <section
     id="about"
-    class="py-8 xl:py-16 dark:bg-gray-800 text-gray-800 dark:text-slate-100 transition-colors duration-300"
+    class="py-8 xl:py-16 text-gray-800 dark:text-slate-100 transition-colors duration-300"
   >
     <div>
       <!-- Section Header -->
