@@ -172,11 +172,14 @@
       "titlePlaceholder": "Enter subject or title",
       "messageLabel": "Message",
       "messagePlaceholder": "Write your message here...",
-      "submit": "Send Message"
-    },
-    "callUs": "Call Us",
-    "address": "Address",
-    "addressText": "Dhakki, Charsadda KPK, Pakistan"
+      "submit": "Send",
+      "sending": "Sending...",
+      "success": "Thanks! Your message was sent.",
+      "error": "Something went wrong, please try again.",
+      "callUs": "Call Us",
+      "address": "Address",
+      "addressText": "Dhakki, Charsadda KPK, Pakistan"
+    }
   },
   "footer": {
     "author": "Hussain Ullah",

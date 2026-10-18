@@ -166,17 +166,20 @@
   ],
   "contact": {
     "heading": "Informations de contact",
-    "subheading": "Envoyez-nous un message ou retrouvez notre emplacement ci-dessous.",
+    "subheading": "Envoyez-nous un message ou retrouvez notre adresse ci-dessous.",
     "form": {
       "titleLabel": "Titre",
-      "titlePlaceholder": "Entrez le sujet ou le titre",
+      "titlePlaceholder": "Saisissez l'objet ou le titre",
       "messageLabel": "Message",
       "messagePlaceholder": "Écrivez votre message ici...",
-      "submit": "Envoyer le message"
-    },
-    "callUs": "Appelez-nous",
-    "address": "Adresse",
-    "addressText": "Dhakki, Charsadda KPK, Pakistan"
+      "submit": "Envoyer",
+      "sending": "Envoi en cours...",
+      "success": "Merci ! Votre message a bien été envoyé.",
+      "error": "Une erreur s'est produite, veuillez réessayer.",
+      "callUs": "Appelez-nous",
+      "address": "Adresse",
+      "addressText": "Dhakki, Charsadda, KPK, Pakistan"
+    }
   },
   "footer": {
     "author": "Hussain Ullah",

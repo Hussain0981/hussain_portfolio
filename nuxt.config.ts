@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import process from 'node:process'
+
 export default defineNuxtConfig({
   modules: [
     '@nuxtjs/tailwindcss',
@@ -44,6 +46,12 @@ export default defineNuxtConfig({
     fallback: 'light', // if OS not detectable, use this
     dataValue: 'theme',
     classSuffix: '',
+  },
+  runtimeConfig: {
+    public: {
+      web3formsKey: '',
+    },
+
   },
 
   compatibilityDate: '2025-07-15',
